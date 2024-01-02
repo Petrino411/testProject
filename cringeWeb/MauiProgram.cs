@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using cringeWeb.Data;
 using Classes;
+using Microsoft.EntityFrameworkCore;
 
 namespace cringeWeb;
 
