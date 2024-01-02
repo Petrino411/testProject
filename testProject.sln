@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "console\console.csproj", "{4047A40D-7018-4B62-8DAA-8DF54F83EFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{C24CCEBA-ABFD-4BB2-9550-4778BD4299DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cringeWeb", "cringeWeb\cringeWeb.csproj", "{821291BD-D628-4E19-AF9A-711B2CFFBD93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4047A40D-7018-4B62-8DAA-8DF54F83EFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4047A40D-7018-4B62-8DAA-8DF54F83EFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4047A40D-7018-4B62-8DAA-8DF54F83EFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4047A40D-7018-4B62-8DAA-8DF54F83EFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24CCEBA-ABFD-4BB2-9550-4778BD4299DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24CCEBA-ABFD-4BB2-9550-4778BD4299DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24CCEBA-ABFD-4BB2-9550-4778BD4299DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24CCEBA-ABFD-4BB2-9550-4778BD4299DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821291BD-D628-4E19-AF9A-711B2CFFBD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821291BD-D628-4E19-AF9A-711B2CFFBD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821291BD-D628-4E19-AF9A-711B2CFFBD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821291BD-D628-4E19-AF9A-711B2CFFBD93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
