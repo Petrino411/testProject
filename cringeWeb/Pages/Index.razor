@@ -2,18 +2,41 @@
 @using Classes
 @inject AppDbContext dbcontext
 
-<div>
-    <table>
-        @foreach (var book in dbcontext.Authors)
-        {
-            <tr>
-                <td>@book.Name</td>
-            </tr>
-        }
-    </table>
-</div>
+@if (IsLoading)
+{
+    
+}
+else
+{
+    <div>
+        <table>
+            @foreach (var book in authors)
+            {
+                <tr>
+                    <td>@book.Name</td>
+                </tr>
+            }
+        </table>
+        <button onclick="@LoadAgain">Перезагрузить</button>
+    </div>
+}
 
 @code
 {
-  
+    bool IsLoading = true;
+    List<Author> authors = new();
+
+    private void LoadAgain()
+    {
+        authors = dbcontext.Authors.ToList();
+        InvokeAsync(StateHasChanged);
+    }
+    
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        authors = dbcontext.Authors.ToList();
+        IsLoading = false;
+        InvokeAsync(StateHasChanged);
+    }
 }
