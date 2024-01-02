@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using cringeWeb.Data;
 using Classes;
 using Microsoft.EntityFrameworkCore;
 namespace cringeWeb;
@@ -12,7 +11,7 @@ public static class MauiProgram
         {
             Environment.CurrentDirectory =
                 AppDomain.CurrentDomain.BaseDirectory.Substring(0,
-                    AppDomain.CurrentDomain.BaseDirectory.IndexOf("BookDesktop"));
+                    AppDomain.CurrentDomain.BaseDirectory.IndexOf("testProject"));
         }
         
         var builder = MauiApp.CreateBuilder();
