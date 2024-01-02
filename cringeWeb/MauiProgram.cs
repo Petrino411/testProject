@@ -2,7 +2,6 @@
 using cringeWeb.Data;
 using Classes;
 using Microsoft.EntityFrameworkCore;
-
 namespace cringeWeb;
 
 public static class MauiProgram
